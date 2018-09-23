@@ -5,12 +5,17 @@
 #particles-js
 
 {
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(1.jpg);
+   
     height: 100%;
-    background-size:cover;
+    background-size: auto;
     background-position: center;
 }
 
+body
+{    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(4.jpg);
+    background-size: auto;
+    background-position: center;
+}
     
 
 .menu
@@ -23,23 +28,28 @@
 .menu li
 {
     
-    display: inline-block;
+    display: inline-flex;
+    background-color: #f1f1f1;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
 }
-
 .menu a
 {
-    color: white;
     text-decoration: none;
-    padding: 5px 20px;
+    padding: 3px 10px;
     font-family: "Roboto", sans-serif;
-    font-size: 15px;
-    
+    font-size: 13px;
+    color: #000;
+   
 }
 
-.active
+.active:hover
 {
-    border: 1px solid white;
     
+    background-color: #555;
+    color: white;
 }
 
 .logo img
@@ -60,7 +70,7 @@ body
     margin: auto;
 }
 
-.hero
+.mid
 {
     position: absolute;
     width: 1200px;
@@ -96,8 +106,8 @@ h1
 
 .btn-one
 {
-    font-family: "Roboto" sans-serif;
-    background-color: darkorange;
+    font-family: "Josefin Sans" sans-serif;
+    
 }
 
 .btn-two
@@ -105,10 +115,16 @@ h1
     font-family: "Roboto" sans-serif;
 }
 
+.btn-one:hover
+{
+    background-color: deeppink;
+    transition: all 0.2s ease-in;
+}
+
 .btn-two:hover
 {
     background-color: darkorange;
-    transition: all 0.5s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 
