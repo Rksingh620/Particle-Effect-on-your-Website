@@ -12,7 +12,7 @@
 }
 
 body
-{    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(4.jpg);
+{    background-image: linear-gradient(to bottom right, red, yellow),url(4.jpg);
     background-size: auto;
     background-position: center;
 }
