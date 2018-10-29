@@ -3,24 +3,31 @@
     padding: 0;
 }
 #particles-js
-
 {
-   
-    height: 100%;
-    background-size: auto;
     background-position: center;
+    height: inherit;
+    background-size: auto;
+    
 }
 
 body
+
 {    background-image: linear-gradient(to bottom right, red, yellow),url(4.jpg);
     background-size: auto;
+=======
+{    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2));
+
     background-position: center;
+    background-color: #fff;
+    background-position: center;
+    font-family: monospace;
 }
-    
+
+
 
 .menu
 { 
-    float: right;
+    margin-left: 1200px;
     list-style: none; 
     margin-top: 30px;
 }
@@ -28,7 +35,7 @@ body
 .menu li
 {
     
-    display: inline-flex;
+    display: inline-grid;
     background-color: #f1f1f1;
     list-style-type: none;
     margin: 0;
@@ -57,11 +64,7 @@ body
     width: 150px;
     height: auto;
     float: left;
-}
-
-body
-{
-    font-family: monospace;
+    
 }
 
 .row
@@ -89,8 +92,9 @@ h1
 
 .button
 {
-    margin-top: 30px;
-    margin-left: 440px;
+    margin-top: 40px;
+    margin-left: 500px;
+    
 }
 
 .btn
@@ -101,12 +105,14 @@ h1
     text-decoration: none;
     margin-right: 8px;
     font-size: 15px;
+    
     text-transform: uppercase;
 }
 
 .btn-one
 {
     font-family: "Josefin Sans" sans-serif;
+    
     
 }
 
